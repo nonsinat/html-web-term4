@@ -1,0 +1,461 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    height: 400vh;
+    
+}
+.contener{
+    width: 90%;
+    margin: auto;
+}
+.nav{
+    width: 100%;
+    height:auto;
+    padding: 10px 0 ;
+    position: sticky;
+    top: 0;
+    
+}
+.nav .navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: top .3s;
+    
+}
+.nav .navbar .logo{
+    width: 10%;
+    /* background-color: aqua; */
+    text-align: right;
+    color: #007BFF;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .navbar .logo a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #007BFF;
+}
+.nav .navbar .logo .img-logo{
+    border-radius: 30px;
+    width: 45px ;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.midnav{
+    width: 50%;
+    /* background-color: red; */
+}
+.midnav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    transition: .3s linear;
+}
+.midnav a:hover{
+    color: #007BFF;
+    text-decoration: underline;
+    transition: all 0.3s linear;
+}
+
+.rightnav{
+    width: 20%;
+
+}
+.rightnav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+.rightnav a:hover{
+    color: #007BFF;
+    transition: all .3s linear;
+}
+.rightnav .sigh{
+    color: white;
+    background-color: #FFC700;
+    padding: 10px;
+    border-radius: 5px;
+}
+.rightnav .sigh:hover{
+    color:white;
+    /* box-shadow: 2px 3px 3px rgb(182, 180, 180); */
+    transition: all .3s linear;
+    opacity: 0.5;
+}
+
+/* Home page */
+.home{
+    width: 100%;
+    /* background-color: #007BFF; */
+    margin: 40px 0;
+    transition: all 0.3s linear;
+}
+.home .detail-home{
+    display: flex;
+}
+.home .detail-home .title{
+    width: 50%;
+    /* background-color: #FFC700; */
+    text-align: center;
+    margin-top: 50px;
+    transition: all 0.3s linear;
+
+}
+.title h1{
+    padding: 10px 0;
+    transition: all 0.3s linear;
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    font-size: 40px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title h1 span{
+    color: #007BFF;
+}
+.title p{
+    margin: auto;
+    width: 450px;
+    text-align: left;
+    font-size: 18px;
+    color:rgb(113, 112, 112) ;
+    line-height: 30px;
+    padding: 20px 0;
+}
+.title .btn{
+    padding: 60px 0;
+}
+.title .btn a{
+    text-decoration: none;
+    padding: 0 25px;
+}
+.title .btn .start{
+    background-color: #ffd700;
+    padding: 17px 20px;
+    border-radius: 30px;
+    color: black;
+    transition: all 0.3s linear;
+}
+.title .btn .start:hover{
+    background-color: #007BFF;
+    color: white;
+}
+.title .btn .learn{
+    color: black;
+    transition: all 0.3s linear;
+}
+.title .btn .learn:hover{
+    background-color: #007BFF;
+    border-radius: 30px ;
+    padding: 17px 20px;
+    color: white;
+}
+
+/*Start home1*/
+.home1{
+    width: 100%;
+    height: 55vh;
+
+
+
+}
+.home1 .detail-home1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:20px ;
+}
+.home1 .detail-home1 .detail-box{
+    width: 100%;
+    height: 100%;
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.home1 .detail-home1 .box1{
+    width: 30%;
+    height: 85%;
+    background-color:#ffff;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.25);
+    padding: 20px ;
+}
+.home1 .detail-home1 .box1 img{
+    width: 70px;
+    height: 50px;
+}
+.home1 .detail-home1 .box1 .caption{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.home1 .detail-home1 .box1 .detail-caption{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+   line-height: 30px;
+}
+.home1 .detail-home1 .box1 .btn{
+    width: 100%;
+    padding: 20px 0;
+    transition: all 0.3s linear;
+    
+}
+
+.home1 .detail-home1 .box1 .btn a{ 
+    color: white;
+    border-radius: 30px ;
+    float: left;
+    background-color: #007BFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+.home1 .detail-home1 .box1 .btn a:hover{
+    text-decoration: none;
+    color: white;
+    border-radius: 0;
+    border: 1px solid #007BFF;
+    transition: all .3s linear;
+}
+
+/*end Of home1*/
+
+/*Start section3*/
+.section3{
+    width: 100%;
+}
+.section3 .title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.section3 .img{
+    width: 100%;
+}
+.section3 .img img{
+    width: 300px;
+    height: 300px;
+}
+/* .img1{
+
+    width: 200px;
+    height: 200px;
+} */
+/*CSS for Popular img*/
+.img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+}
+.column {
+	margin: 55px 120px 0;
+    padding: 0;
+    
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 250px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+    bottom: -90px;
+    
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/*End of CSS popular img*/
+/*End of section3*/
+
+/*Start Section4*/
+    .section4{
+      width: 90%;
+      height: 75vh;  
+      margin: auto;
+    }
+    .section4 .title{
+        width: 100%;
+        height: 20px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    .section4 .title .left{
+        display: flex;
+        width: 50%;
+        float: left;
+        
+    }
+    .section4 .title .left h5{
+        font-size: 25px;
+        font-style: normal;
+    }
+    .section4 .title .right{
+        width: 50%;
+    }
+    .section4 .title .right h5{
+        font-size: 25px;
+        font-style: normal;
+    }
+
+    .section4 .agency-image{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section4 .agency-image img{
+        width: 60%;;
+    }
+    .section4 .agency-image .provide{
+        width: 30%;
+    }
+    .section4 .agency-image .provide p{
+        font-size: 18px;
+    }
+
+/*End of Section4*/
+
+/*Start Section5*/
+    .section5{
+        width: 100%;
+        background: rgba(233, 231, 231, 0.4);
+    }
+    .section5 .total{
+        text-align: center;
+        width: 60%;
+        height: 118px;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        
+    }
+    .num{
+        color: #007BFF;
+        font-size: 28px;
+    }
+    .label{
+        color: rgba(0, 0, 0, 0.47);
+        font-size: 19px;
+    }
+
+/*End of Sectino5*/
+
+/* Start Section6 */
+.section6{
+    width: 100%;
+    padding: 50px 0;
+}
+.section6 .quote{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.section6 .quote h1{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: normal;
+}
+.section6 .quote p{
+    height: 30vh;
+    width: 50%;
+    text-align: center;  
+    margin: auto;
+    font-size: 24px;
+    line-height: 50px;
+    align-items: center;
+    display: flex;
+}
+.section6 .quote h5{
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(165, 165, 165);
+    opacity: 0.6;
+    transition: all .3s linear;
+}
+.section6 .quote h5:hover{
+    opacity: 1;
+    transition: all .3s linear;
+}
+/* End of Section6 */
+footer{
+    width: 98%;
+    margin: auto;
+    background-color:#ffffff66; 
+
+}
+.container{
+    background-color: rgba(233, 231, 231, 0.4);
+}
+
+
+/*end of Home Page*/
